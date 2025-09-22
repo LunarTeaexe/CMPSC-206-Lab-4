@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title> Lab 4 </title>
+    <style>
+        div {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 50%;
+    }
+</style>
+    </head>
+     <body style="background-color:powderblue;">
+        <h1 style="text-align:center;">Fall Coffee</h1>
+        <p style="text-align:center;">Support your local brewers</p>
+        <div><img src="/Images/coffeeClipart.png" alt="coffee mug" style="width:160px;height:160px;"></div>
+        <p style="text-align:center;"> Find details about our line up <a href="details.html">here</a></p>
+        <p style="text-align-last: center;"><em> Please fill out the form below</em></p>
+        
+    <form action="submit.html">
+        <label for="fname">Full Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+        
+        <input type="checkbox" id="coffee1" name="coffee1" value="Dark roast">
+            <label for="coffee1"> Dark Roast: $20.99</label><br>
+        <input type="checkbox" id="coffee2" name="coffee2" value="Donut Shop Blend">
+            <label for="coffee2"> Donut Shop Blend: $21.50</label><br>
+        <input type="checkbox" id="coffee3" name="coffee3" value="Columbian Blend">
+            <label for="coffee3"> Columbian Blend: $20.00</label><br>
+        <input type="checkbox" id="coffee4" name="coffee4" value="Mushroom Blend">
+            <label for="coffee4"> Mushroom Blend: $20.99</label><br>
+        
+        <p>Select your payment method.</p>
+        
+        <input type="radio" id="Visa" name="Visa" value="Visa">
+            <label for="Visa">Visa</label><br>
+        <input type="radio" id="Discover" name="Discover" value="Discover">
+            <label for="Discover">Discover</label><br>
+        <input type="radio" id="masterCard" name="masterCard" value="masterCard">
+            <label for="masterCard">Master Card</label><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    </body>
+</html>
